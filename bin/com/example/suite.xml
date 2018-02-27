@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="3">
+  <test name="Test">
+    <classes>
+      <class name="com.example.tests.ParallellTest"/>
+      <methods>
+      <include name="TC1" />
+      <include name="TC2" />
+      <include name="TC3" />
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
